@@ -275,20 +275,22 @@ color: white;
   color: var(--orange);
 }
 .three-box-item-link{
+   margin-top:25px;
+   margin-left: 40px;
+}
+.three-box-item a{
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--light);
     width: 180px;
     height: 50px;
     background: var(--orange);
     border-radius: 10px;
     text-align: center;
     padding:10px;
-    margin: 10px auto;
+   
 }
-.three-box-item-link a{
-    text-decoration: none;
-    font-size: 20px;
-    color: var(--light);
-}
-.three-box-item-link:hover{
+.three-box-item a:active{
     background: var(--dark-yellow);
 }
 
@@ -350,7 +352,7 @@ margin-bottom:2px;
 }
 .social-contact{
 display: flex;
-justify-content: space-around;  
+justify-content: space-evenly;  
 margin: 20px;
 }
 .card{
